@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 		resources :comments
 	end
 
-	root 'application#goodbye'
+	root 'application#hello'
 end
